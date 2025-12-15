@@ -9,3 +9,14 @@ git add <file name> use to stage the unstaged files
 git commit -m "<message>"  - used to track the staged file 
 
 git restore --staged <filename:>    - to untrack the staged file 
+
+
+git remote add origin https://github.com/LondheShubham153/github-for-devops-workshop.git
+git remote -v
+git status
+ 
+git remote set-url origin https://github.com/LondheShubham153/github-for-devops-workshop.git
+clear
+git remote -v
+git push origin master
+clear
